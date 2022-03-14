@@ -185,6 +185,22 @@ h3{
     padding: 5vh;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* social section */
+.container-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+button{
+    font-style: inherit;
+    font-family: sans-serif;
+    font-weight: 100px;
+    font-stretch: extra-expanded;
+    letter-spacing: 10px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 25px;
+}
 
 
 
