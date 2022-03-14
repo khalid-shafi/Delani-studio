@@ -91,6 +91,7 @@
         color: black;
         font-family: sans-serif;
         font-size: 16px;
+        
 }
 form input{
     width: 400px;
@@ -103,7 +104,7 @@ form textarea{
     left: 1%;
     position: relative;
     height: 300px;
-    width: 700px;
+    width: 800px;
 }
 textarea::placeholder{
     color: white;
@@ -140,10 +141,7 @@ h3{
         justify-content: center;
         align-items: center;
     }
-    /* .lufluf :hover{
-        background-color: grey;
-        opacity: 0.8;
-    } */
+    
     .container-fluid h3{
         text-align: center;
         padding-top: 10px;
