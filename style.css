@@ -112,7 +112,46 @@ textarea::placeholder{
     padding-top: 20px;
     padding-left: 10px;
 }
-
+button{
+    color:blue;
+}
+/* portfolio */
+h3{
+    font-size: 30px;
+    }
+    .overlay {
+        position: relative;
+        top: 50%;
+        left: 20%;
+        border: 3px solid white;
+        display: none;
+        font-size: 20px;
+        padding: 20px;
+        font-weight: bold;
+        color: weight;
+    }
+    .lufluf {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lufluf2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-fluid h3{
+        text-align: center;
+        padding-top: 10px;
+    }
+    /*footer */
+.footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 
