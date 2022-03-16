@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js
-
-    "></script>
-    <script src="main.js"></script>
     <title>Delani studio</title>
   </head>
   <body>
@@ -53,23 +49,24 @@
       
       <!--What we do-->
 
-      <h3 class="h3"><strong>WHAT WE DO</strong></h3>
       <div class="icons">
-              <div class="HELLO">
+        <h3 class="h3"><strong>WHAT WE DO</strong></h3>
+          <div class="heyyy">
+              <div class="hello">
                     <div class="bulbul">      
                       <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/design_icon.png" alt="design icon">
                       <h4 id="design"><strong>DESIGN</strong></h4>
                     </div>
                     <div class="HIDD1" style="display: none;">
                       <p>DESIGN</p>
-                      <p>Our design practice offers a full range of services including brand strategy,
-                        interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit
+                      <p>Our design practice offers a full range of services including brand strategy,interaction and visual design and user experience testing.</p>
+                      <p>Throughout your project, our designers create and implement visual design and workflows, solicit
                         user feedback and work with you to make sure what gets built is what is needed.</p>
                     </div>
               </div>
 
-               <div class="HEY">
-                    <div>
+               <div class="hello">
+                    <div class="bulbul2">
                       <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/dev_icon.png" alt="development icon">
                       <h4><strong>DEVELOPMENT</strong></h4>
                     </div>
@@ -81,8 +78,8 @@
                     </div>
               </div>
 
-              <div class="HII">
-                    <div>
+              <div class="hello">
+                    <div class="bulbul3">
                       <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/product_icon.png" alt="product icon">
                       <h4><strong>PRODUCT MANAGMENT</strong></h4>
                     </div>
@@ -94,6 +91,7 @@
                         This iterative process allows for changes as business requirements evolve.</p>
                     </div>
               </div>
+           </div>
       </div>
       <!--Portfolio-->
       <div class="container-fluid">
@@ -193,14 +191,18 @@
    
    <!-- contact us -->
      <div class="contacts">
-        <p>CONTACT US</p>
-        <form action="">
-          <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email"><br>
+       <p id="result"></p>
+       <p>CONTACT US</p>
+        <form action="" id="form">
+            <p id="error"></p>
+            <div>
+              <input type="text" placeholder="Your Name" id="name">
+              <input type="email" placeholder="Your Email" id="email"><br>
+            </div>
             <textarea placeholder="YOUR MESSAGE HERE"></textarea><br>
-            <button type="submit" id="submit" value="send" class="btn btn-primary">SUBMIT</button>
-          </form>
-        </div>
+            <button id="btn">submit</button>
+        </form>
+     </div>
         <!--Social media -->
         <div class="container">
   <div class="container-2">
@@ -228,6 +230,7 @@
 </div>
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
