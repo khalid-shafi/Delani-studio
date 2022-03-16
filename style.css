@@ -57,17 +57,27 @@
 }
 /* what we do */
 .icons {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+}
+.icons .heyyy{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
     align-items: center;
 }
-.h3 {
+.icons .h3 {
     text-align: center;
     margin-bottom: 40px;
     margin-top: 50px;
+}
+.icons .heyyy .hello{
+    text-align: center;
+    width: 25%;
+}
+.HIDD1 p{
+    font-size: 16px;
+    font-family: "poppins", sans-serif;
 }
 
 .contacts{
@@ -80,19 +90,10 @@
 .contacts  p{
     color: #fff;
     text-align: center;
-    padding-top: 90px;
-    font-weight: 20px;
+    font-weight: 400;
     font-size: 28px;
     font-family: sans-serif;
-} 
-.contacts form{
-    border: px solid white;
-    padding-left: 15px;
-    margin: 20px;
-    position: relative;
-    left: 20%;
-    margin-top: 33px;
-    }
+}
 .contacts form input::placeholder{
         color: black;
         font-family: sans-serif;
@@ -101,16 +102,17 @@
 }
 form input{
     width: 400px;
-    height: 30px;
+    height: 30px;   
+}
+form div{
+    margin-left: 20%;
 }
 form textarea{
     background-color:rgba(200, 300, 59, 0.01);
     border: 1px solid white;
-    margin-top: 23px;
-    left: 1%;
-    position: relative;
     height: 300px;
     width: 800px;
+    margin-left: 20%;
 }
 textarea::placeholder{
     color: white;
@@ -198,7 +200,7 @@ h3{
     margin-top: 35px;
 }
 button{
-    font-style: inherit;
+    margin-left: 30%;
     font-family: sans-serif;
     font-weight: 100px;
     font-stretch: extra-expanded;
@@ -206,6 +208,7 @@ button{
     line-height: 20px;
     text-align: center;
     border-radius: 25px;
+
 }
 
 
