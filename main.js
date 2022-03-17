@@ -1,31 +1,24 @@
 $(document).ready (function(){
-    $(".hello").click(function(){
+    $("#hello1").click(function(){
         $(".bulbul").toggle('hide');
         $(".HIDD1").toggle('show');
 
     });
 });
 $(document).ready (function(){
-    $(".hello").click(function(){
+    $("#hello2").click(function(){
         $(".bulbul2").toggle('hide');
         $(".HIDD2").toggle('show');
 
     });
 });
 $(document).ready (function(){
-    $(".hello").click(function(){
+    $("#hello3").click(function(){
         $(".bulbul3").toggle('hide');
         $(".HIDD3").toggle('show');
 
     });
 });
-
-
-
-
-
-
-
 
 const btn = document.getElementById("btn");
 
